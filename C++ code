@@ -1,5 +1,6 @@
-#include<iostream.h>
-#include<conio.h>
+#include <iostream>
+using namespace std;
+#include <conio.h>
 int support(char a[],int n,char D[][50],int a1[],int);
 void sort(char *,int);
 void Apriori(char D[][50],int count[],int sup,int n);
@@ -245,4 +246,4 @@ int Distinct(char D[][50],int count[],int n)
      }
     
      return tot;
-     }                                 
+     }                             
